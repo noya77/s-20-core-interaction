@@ -1,0 +1,51 @@
+body{
+  font-family: helvetica;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.links
+{
+  color: lightblue;
+  line-height: 30vh;
+  font-size: 12vw;
+
+
+
+}
+
+
+.bio {
+  width: 45vw;
+  height: 85vh;
+  color: lightgrey;
+  text-align: right;
+  right: 10vw;
+  top: 20vh;
+  position: absolute;
+  line-height: 7vh;
+  opacity: 75%;
+  font-size: 24px;
+  font-style: oblique;
+
+}
+
+.title {
+  color: orange;
+  font-weight: bold;
+  letter-spacing: .1em;
+  font-size: 78px;
+  animation: blink  7s infinite;
+}
+
+@keyframes blink {
+
+  from { color: orange; }
+  to { color: yellow; }
+}
+
+a {
+  text-decoration: none;
+  color: lightblue;
+}

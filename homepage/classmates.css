@@ -1,0 +1,31 @@
+body
+{
+  font-family: helvetica;
+  font-size: 72px;
+  color: white;
+  background-color: black;
+  text-decoration: underline;
+  line-height: 14vh;
+}
+
+
+a {
+  color:white;
+  letter-spacing: .2em;
+}
+
+p {
+  position: absolute;
+  top: 5vh;
+}
+
+
+div{
+  position: fixed;
+  background-color: red;
+  width: 50vw;
+  height: 20vh;
+  z-index: -10;
+  top: 17vh;
+  left: 35vw;
+}
